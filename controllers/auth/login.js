@@ -8,7 +8,7 @@ const signToken = require('../../utils/signToken');
 const login = asyncWrapper(async (req, res, next) => {
   const { password, duration } = req.body;
 
-  console.log(process.env.PASSWORD);
+  console.log(process.env.PASSWORD, 123456);
 
   const isMatch = process.env.PASSWORD == password;
 

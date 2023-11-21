@@ -72,8 +72,8 @@ export const Header = (): JSX.Element => {
       {!hideHeader && (
         <span className={classes.HeaderMain}>
           {!greetLoading ? (
-            <div>
-              <p>{greeting?.en}</p>
+            <div className={classes.greetingBox}>
+              <p className={classes.dayEnglish}>{greeting?.en}</p>
               <p>{greeting?.zh}</p>
             </div>
           ) : (

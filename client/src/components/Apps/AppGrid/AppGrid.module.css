@@ -1,6 +1,8 @@
 .AppGrid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
 }
 
 @media (min-width: 430px) {

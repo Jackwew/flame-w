@@ -15,8 +15,8 @@ const normalizeTheme = async () => {
   if (theme) {
     // save theme in new format
     // PAB - primary;accent;background
-    const { primary: p, accent: a, background: b } = theme.colors;
-    const normalizedTheme = `${p};${a};${b}`;
+    const { primary: p, accent: a, background: b, primary_rgb: pr, accent_rgb: ar, background_rgb: br } = theme.colors;
+    const normalizedTheme = `${p};${a};${b};${pr};${ar};${br}`;
 
     await writeFile(
       'data/config.json',

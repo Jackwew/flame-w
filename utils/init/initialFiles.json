@@ -1,196 +1,144 @@
 {
-  "themes": [
+  "files": [
     {
-      "name": "blackboard",
-      "colors": {
-        "background": "#1a1a1a",
-        "primary": "#FFFDEA",
-        "accent": "#5c5c5c",
-        "background_rgb": "26,26,26",
-        "primary_rgb": "255,253,234",
-        "accent_rgb":"92,92,92"
+      "name": "flame.css",
+      "msg": {
+        "created": "Created empty CSS file",
+        "found": "Custom CSS file found"
       },
-      "isCustom": false
+      "paths": {
+        "src": "../../data",
+        "dest": "../../public"
+      },
+      "template": "",
+      "isJSON": false
     },
     {
-      "name": "gazette",
-      "colors": {
-        "background": "#F2F7FF",
-        "primary": "#000000",
-        "accent": "#5c5c5c",
-        "background_rgb": "242,247,255",
-        "primary_rgb": "0,0,0",
-        "accent_rgb":"92,92,92"
+      "name": "customQueries.json",
+      "msg": {
+        "created": "Created empty queries file",
+        "found": "Custom queries file found"
       },
-      "isCustom": false
+      "paths": {
+        "src": "../../data",
+        "dest": "../../data"
+      },
+      "template": {
+        "queries": []
+      },
+      "isJSON": true
     },
     {
-      "name": "espresso",
-      "colors": {
-        "background": "#21211F",
-        "primary": "#D1B59A",
-        "accent": "#4E4E4E",
-        "background_rgb": "33,33,31",
-        "primary_rgb": "209,181,154",
-        "accent_rgb":"78,78,78"
+      "name": "themes.json",
+      "msg": {
+        "created": "Created default theme file",
+        "found": "Found theme file"
       },
-      "isCustom": false
-    },
-    {
-      "name": "cab",
-      "colors": {
-        "background": "#F6D305",
-        "primary": "#1F1F1F",
-        "accent": "#424242",
-        "background_rgb": "246,211,5",
-        "primary_rgb": "31,31,31",
-        "accent_rgb":"66,66,66"
+      "paths": {
+        "src": "../../data",
+        "dest": "../../data"
       },
-      "isCustom": false
-    },
-    {
-      "name": "cloud",
-      "colors": {
-        "background": "#f1f2f0",
-        "primary": "#35342f",
-        "accent": "#37bbe4",
-        "background_rgb": "241,242,240",
-        "primary_rgb": "53,52,47",
-        "accent_rgb":"55,187,228"
+      "template": {
+        "themes": [
+          {
+            "name": "blackboard",
+            "colors": {
+              "background": "#161616",
+              "primary": "#ffffff",
+              "accent": "#FFAC7D",
+              "background_rgb": "26,26,26",
+              "primary_rgb": "255,255,255",
+              "accent_rgb": "255,172,125"
+            },
+            "isCustom": false
+          },
+          {
+            "name": "gazette",
+            "colors": {
+              "background": "#1D1D1D",
+              "primary": "#ffffff",
+              "accent": "#2D68FF",
+              "background_rgb": "29,29,29",
+              "primary_rgb": "255,255,255",
+              "accent_rgb": "45,104,255"
+            },
+            "isCustom": false
+          },
+          {
+            "name": "espresso",
+            "colors": {
+              "background": "#122739",
+              "primary": "#ffffff",
+              "accent": "#384DD1",
+              "background_rgb": "18,39,57",
+              "primary_rgb": "255,255,255",
+              "accent_rgb": "56,77,209"
+            },
+            "isCustom": false
+          },
+          {
+            "name": "cab",
+            "colors": {
+              "background": "#070707",
+              "primary": "#ffffff",
+              "accent": "#B2EA12",
+              "background_rgb": "7,7,7",
+              "primary_rgb": "255,255,255",
+              "accent_rgb": "178,234,18"
+            },
+            "isCustom": false
+          },
+          {
+            "name": "cloud",
+            "colors": {
+              "background": "#161616",
+              "primary": "#ffffff",
+              "accent": "#EA4336",
+              "background_rgb": "22,22,22",
+              "primary_rgb": "255,255,255",
+              "accent_rgb": "234,67,54"
+            },
+            "isCustom": false
+          },
+          {
+            "name": "lime",
+            "colors": {
+              "background": "#021E1F",
+              "primary": "#E7FFFD",
+              "accent": "#13F0F3",
+              "background_rgb": "2,30,31",
+              "primary_rgb": "231,255,253",
+              "accent_rgb": "19,240,243"
+            },
+            "isCustom": false
+          },
+          {
+            "name": "green",
+            "colors": {
+              "background": "#02221B",
+              "primary": "#ffffff",
+              "accent": "#16D961",
+              "background_rgb": "2,34,27",
+              "primary_rgb": "255,255,255",
+              "accent_rgb": "22,217,97"
+            },
+            "isCustom": false
+          },
+          {
+            "name": "white",
+            "colors": {
+              "background": "#ffffff",
+              "primary": "#333333",
+              "accent": "#384DD1",
+              "background_rgb": "255,255,255",
+              "primary_rgb": "51,51,51",
+              "accent_rgb": "56,77,209"
+            },
+            "isCustom": false
+          }
+        ]
       },
-      "isCustom": false
-    },
-    {
-      "name": "lime",
-      "colors": {
-        "background": "#263238",
-        "primary": "#AABBC3",
-        "accent": "#aeea00",
-        "background_rgb": "38,50,56",
-        "primary_rgb": "170,187,195",
-        "accent_rgb":"174,234,0"
-      },
-      "isCustom": false
-    },
-    {
-      "name": "white",
-      "colors": {
-        "background": "#ffffff",
-        "primary": "#222222",
-        "accent": "#dddddd",
-        "background_rgb": "255,255,255",
-        "primary_rgb": "34,34,34",
-        "accent_rgb":"221,221,221"
-      },
-      "isCustom": false
-    },
-    {
-      "name": "tron",
-      "colors": {
-        "background": "#242B33",
-        "primary": "#EFFBFF",
-        "accent": "#6EE2FF",
-        "background_rgb": "36,43,51",
-        "primary_rgb": "239,251,255",
-        "accent_rgb":"110,226,255"
-      },
-      "isCustom": false
-    },
-    {
-      "name": "blues",
-      "colors": {
-        "background": "#2B2C56",
-        "primary": "#EFF1FC",
-        "accent": "#6677EB",
-        "background_rgb": "43,44,86",
-        "primary_rgb": "239,241,252",
-        "accent_rgb":"102,119,235"
-      },
-      "isCustom": false
-    },
-    {
-      "name": "passion",
-      "colors": {
-        "background": "#f5f5f5",
-        "primary": "#12005e",
-        "accent": "#8e24aa",
-        "background_rgb": "245,245,245",
-        "primary_rgb": "18,0,94",
-        "accent_rgb":"142,36,170"
-      },
-      "isCustom": false
-    },
-    {
-      "name": "chalk",
-      "colors": {
-        "background": "#263238",
-        "primary": "#AABBC3",
-        "accent": "#FF869A",
-        "background_rgb": "38,50,56",
-        "primary_rgb": "170,187,195",
-        "accent_rgb":"255,134,154"
-      },
-      "isCustom": false
-    },
-    {
-      "name": "paper",
-      "colors": {
-        "background": "#F8F6F1",
-        "primary": "#4C432E",
-        "accent": "#AA9A73",
-        "background_rgb": "248,246,241",
-        "primary_rgb": "76,67,46",
-        "accent_rgb":"170,154,115"
-      },
-      "isCustom": false
-    },
-    {
-      "name": "neon",
-      "colors": {
-        "background": "#091833",
-        "primary": "#EFFBFF",
-        "accent": "#ea00d9",
-        "background_rgb": "9,24,51",
-        "primary_rgb": "239,251,255",
-        "accent_rgb":"234,0,217"
-      },
-      "isCustom": false
-    },
-    {
-      "name": "pumpkin",
-      "colors": {
-        "background": "#2d3436",
-        "primary": "#EFFBFF",
-        "accent": "#ffa500",
-        "background_rgb": "45,52,54",
-        "primary_rgb": "239,251,255",
-        "accent_rgb":"255,165,0"
-      },
-      "isCustom": false
-    },
-    {
-      "name": "onedark",
-      "colors": {
-        "background": "#282c34",
-        "primary": "#dfd9d6",
-        "accent": "#98c379",
-        "background_rgb": "40,44,52",
-        "primary_rgb": "223,217,214",
-        "accent_rgb":"152,195,121"
-      },
-      "isCustom": false
-    },
-    {
-      "name": "mint",
-      "colors": {
-        "background": "#282525",
-        "primary": "#d9d9d9",
-        "accent": "#50fbc2",
-        "background_rgb": "40,37,37",
-        "primary_rgb": "217,217,217",
-        "accent_rgb": "80,251,194"
-      },
-      "isCustom": false
+      "isJSON": true
     }
   ]
 }

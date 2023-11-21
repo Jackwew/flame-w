@@ -17,6 +17,17 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2.5rem;
+  .greetingBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .dayEnglish {
+      height: auto;
+      font-size: 24px;
+      font-weight: lighter;
+      font-family: "Candara Light";
+    }
+  }
 }
 
 .SettingsLink {

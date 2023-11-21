@@ -12,14 +12,17 @@
 }
 
 .AppCardDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
   text-transform: uppercase;
 }
 
 .AppCardDetails h5 {
-  font-size: 1em;
-  font-weight: 500;
+  font-size: 1.2em;
+  font-weight: 600;
   color: var(--color-primary);
-  margin-bottom: -4px;
+  /*margin-bottom: -4px;*/
 }
 
 .AppCardDetails span {
@@ -31,13 +34,13 @@
 
 @media (min-width: 500px) {
   .AppCard {
-    padding: 2px;
+    padding: 6px 10px;
     border-radius: 4px;
     transition: all 0.1s;
   }
 
   .AppCard:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(var(--color-accent_rgb), 0.2);
   }
 }
 

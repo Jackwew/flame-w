@@ -1,7 +1,7 @@
 .SectionHeadline {
   text-transform: uppercase;
   color: var(--color-primary);
-  font-weight: 900;
+  font-weight: 600;
   font-size: 20px;
   margin-bottom: 16px;
 }

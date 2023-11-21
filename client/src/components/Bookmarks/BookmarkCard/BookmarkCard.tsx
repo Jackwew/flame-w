@@ -13,6 +13,7 @@ import { Bookmark, Category } from '../../../interfaces';
 import classes from './BookmarkCard.module.css';
 import { Icon } from '../../UI';
 import { iconParser, isImage, isSvg, isUrl, urlParser } from '../../../utility';
+import CellGrid from '../../CellGrid';
 
 interface Props {
   category: Category;
@@ -46,6 +47,7 @@ export const BookmarkCard = (props: Props): JSX.Element => {
       </h3>
 
       <div className={classes.Bookmarks}>
+        {/*<CellGrid />*/}
         {category.bookmarks.map((bookmark: Bookmark) => {
           const redirectUrl = urlParser(bookmark.url)[1];
 

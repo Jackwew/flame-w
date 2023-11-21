@@ -1,8 +1,9 @@
 .BookmarkCard {
-  border-radius: 16px;
-  box-shadow: rgba(var(--color-accent_rgb), 0.3) 0 2px 8px;
+  border: 1px solid rgb(var(--color-primary_rgb), 0.1);
+  border-radius: 5px;
+  box-shadow: rgba(var(--color-primary_rgb), 0.1) 0 2px 8px;
   padding: 20px;
-  height: 500px;
+  height: 350px;
 }
 
 .BookmarkCard .light {
@@ -12,8 +13,8 @@
 .BookmarkCard h3 {
   color: var(--color-accent);
   margin-bottom: 10px;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
