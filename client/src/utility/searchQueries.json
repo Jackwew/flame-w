@@ -1,0 +1,64 @@
+{
+  "queries": [
+    {
+      "name": "Deezer",
+      "prefix": "dz",
+      "template": "https://www.deezer.com/search/"
+    },
+    {
+      "name": "Disroot",
+      "prefix": "ds",
+      "template": "http://search.disroot.org/search?q="
+    },
+    {
+      "name": "DuckDuckGo",
+      "prefix": "d",
+      "template": "https://duckduckgo.com/?q="
+    },
+    {
+      "name": "Google",
+      "prefix": "g",
+      "template": "https://www.google.com/search?q="
+    },
+    {
+      "name": "IMDb",
+      "prefix": "im",
+      "template": "https://www.imdb.com/find?q="
+    },
+    {
+      "name": "Local search",
+      "prefix": "l",
+      "template": "#"
+    },
+    {
+      "name": "Reddit",
+      "prefix": "r",
+      "template": "https://www.reddit.com/search?q="
+    },
+    {
+      "name": "Spotify",
+      "prefix": "sp",
+      "template": "https://open.spotify.com/search/"
+    },
+    {
+      "name": "The Movie Database",
+      "prefix": "mv",
+      "template": "https://www.themoviedb.org/search?query="
+    },
+    {
+      "name": "Tidal",
+      "prefix": "td",
+      "template": "https://listen.tidal.com/search?q="
+    },
+    {
+      "name": "Wikipedia",
+      "prefix": "w",
+      "template": "https://en.wikipedia.org/w/index.php?search="
+    },
+    {
+      "name": "YouTube",
+      "prefix": "yt",
+      "template": "https://www.youtube.com/results?search_query="
+    }
+  ]
+}

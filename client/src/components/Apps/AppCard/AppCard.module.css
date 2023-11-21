@@ -1,0 +1,50 @@
+.AppCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.AppCardIcon {
+  width: 35px;
+  height: 35px;
+  margin-right: 0.5em;
+}
+
+.AppCardDetails {
+  text-transform: uppercase;
+}
+
+.AppCardDetails h5 {
+  font-size: 1em;
+  font-weight: 500;
+  color: var(--color-primary);
+  margin-bottom: -4px;
+}
+
+.AppCardDetails span {
+  color: var(--color-accent);
+  font-weight: 400;
+  font-size: 0.8em;
+  opacity: 1;
+}
+
+@media (min-width: 500px) {
+  .AppCard {
+    padding: 2px;
+    border-radius: 4px;
+    transition: all 0.1s;
+  }
+
+  .AppCard:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.CustomIcon {
+  width: 90%;
+  height: 90%;
+  margin-top: 2px;
+  margin-left: 2px;
+  object-fit: contain;
+}

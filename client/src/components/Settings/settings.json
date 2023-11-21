@@ -1,0 +1,39 @@
+{
+  "routes": [
+    {
+      "name": "Theme",
+      "dest": "/settings",
+      "authRequired": false
+    },
+    {
+      "name": "General",
+      "dest": "/settings/general",
+      "authRequired": true
+    },
+    {
+      "name": "Interface",
+      "dest": "/settings/interface",
+      "authRequired": true
+    },
+    {
+      "name": "Weather",
+      "dest": "/settings/weather",
+      "authRequired": true
+    },
+    {
+      "name": "Docker",
+      "dest": "/settings/docker",
+      "authRequired": true
+    },
+    {
+      "name": "CSS",
+      "dest": "/settings/css",
+      "authRequired": true
+    },
+    {
+      "name": "App",
+      "dest": "/settings/app",
+      "authRequired": false
+    }
+  ]
+}
