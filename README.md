@@ -246,3 +246,7 @@ python3 bookmarks_importer.py --bookmarks <path to bookmarks.html> --data <path 
 ### Custom CSS and themes
 
 See project wiki for [Custom CSS](https://github.com/pawelmalak/flame/wiki/Custom-CSS) and [Custom theme with CSS](https://github.com/pawelmalak/flame/wiki/Custom-theme-with-CSS).
+
+
+###  project source
+This project forked from [pawelmalak/flame](https://github.com/pawelmalak/flame)
