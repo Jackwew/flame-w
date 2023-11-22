@@ -33,6 +33,7 @@ export const BookmarkCard = (props: Props): JSX.Element => {
 
   return (
     <div className={classes.BookmarkCard}>
+      <CellGrid />
       <h3
         className={
           fromHomepage || !isAuthenticated ? '' : classes.BookmarkHeader
@@ -47,7 +48,6 @@ export const BookmarkCard = (props: Props): JSX.Element => {
       </h3>
 
       <div className={classes.Bookmarks}>
-        {/*<CellGrid />*/}
         {category.bookmarks.map((bookmark: Bookmark) => {
           const redirectUrl = urlParser(bookmark.url)[1];
 

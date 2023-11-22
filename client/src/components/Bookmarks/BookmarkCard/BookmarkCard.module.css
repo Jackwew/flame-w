@@ -4,10 +4,10 @@
   box-shadow: rgba(var(--color-primary_rgb), 0.1) 0 2px 8px;
   padding: 20px;
   height: 350px;
-}
-
-.BookmarkCard .light {
-
+  max-width: 100%;
+  transform: translate3d(0, 0, 0);
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .BookmarkCard h3 {

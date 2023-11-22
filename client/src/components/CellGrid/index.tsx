@@ -8,8 +8,8 @@ const Grid = styled('div', {
   width: '100%',
   display: 'grid',
   gridTemplate: 'repeat(10, 1fr) / repeat(10, 1fr)',
-  marginLeft: '-16px',
-  marginTop: '-32px',
+  marginLeft: '-20px',
+  marginTop: '-20px',
 })
 
 export default function CellGrid() {
