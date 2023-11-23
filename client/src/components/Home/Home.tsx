@@ -116,7 +116,7 @@ export const Home = (): JSX.Element => {
 
       {!config.hideApps && (isAuthenticated || apps.some((a) => a.isPinned)) ? (
         <Fragment>
-          <SectionHeadline title="🐳" link="/applications" />
+          <SectionHeadline title="Applications" link="/applications" />
           {appsLoading ? (
             <Spinner />
           ) : (

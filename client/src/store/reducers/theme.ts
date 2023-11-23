@@ -12,7 +12,7 @@ interface ThemeState {
 
 const savedTheme = localStorage.theme
   ? parsePABToTheme(localStorage.theme)
-  : parsePABToTheme('#effbff;#6ee2ff;#242b33');
+  : parsePABToTheme('#effbff;#6ee2ff;#242b33;239,251,255;110,226,255;36,43,51');
 
 const initialState: ThemeState = {
   activeTheme: {

@@ -34,6 +34,9 @@ export const ThemeCreator = ({ modalHandler }: Props): JSX.Element => {
       primary: '#ffffff',
       accent: '#ffffff',
       background: '#ffffff',
+      primary_rgb: '245,245,245',
+      accent_rgb: '255,255,255',
+      background_rgb: '255,255,255',
     },
   });
 
@@ -59,11 +62,15 @@ export const ThemeCreator = ({ modalHandler }: Props): JSX.Element => {
   const setColor = ({
     target: { value, name },
   }: ChangeEvent<HTMLInputElement>) => {
+    const r = parseInt(value.substr(1, 2), 16);
+    const g = parseInt(value.substr(3, 2), 16);
+    const b = parseInt(value.substr(5, 2), 16);
     setFormData({
       ...formData,
       colors: {
         ...formData.colors,
         [name]: value,
+        [`${name}_rgb`]: `${r},${g},${b}`,
       },
     });
   };
@@ -84,7 +91,6 @@ export const ThemeCreator = ({ modalHandler }: Props): JSX.Element => {
 
     // close modal
     closeModal();
-
     // clear theme name
     setFormData({ ...formData, name: '' });
   };
