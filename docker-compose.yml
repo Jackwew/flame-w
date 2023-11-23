@@ -1,20 +1,20 @@
 version: '3.6'
 
 services:
-  flameW:
+  flamerevision:
     build:
       context: .
       dockerfile: ./Dockerfile
-    container_name: flameW
+    container_name: flamerevision
     volumes:
       - /docker/flameData:/app/data
       # - /var/run/docker.sock:/var/run/docker.sock # optional but required for Docker integration
     ports:
-      - 25005:25005
+      - 25005:5005
     # secrets:
     #   - password # optional but required for (1)
     environment:
-      - PASSWORD=www
+      - PASSWORD=flame_password
       # - PASSWORD_FILE=/run/secrets/password # optional but required for (1)
     restart: always
     networks:
